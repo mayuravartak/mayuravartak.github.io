@@ -99,7 +99,7 @@ input, select, textarea {
 	/* smalled text on right*/
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Source Sans Pro", Helvetica;
+		font-family: Georgia;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -140,7 +140,7 @@ input, select, textarea {
 		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -170,7 +170,7 @@ input, select, textarea {
 
 	h5 {
 		font-size: 0.9em;
-		line-height: 1.5em;
+		line-height: 0;
 	}
 
 	h6 {
@@ -2061,7 +2061,7 @@ input, select, textarea {
 			height: 100%;
 			left: 0;
 			opacity: 0.5;
-			position: absolute;
+			position: relative;
 			top: 0;
 			width: 100%;
 		}
@@ -2087,7 +2087,7 @@ input, select, textarea {
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
 				padding: 0 1.5em;
-				position: absolute;
+				position: relative;
 				text-align: center;
 				text-decoration: none;
 				top: 50%;
@@ -2104,7 +2104,7 @@ input, select, textarea {
 			}
 
 		.image img {
-			border-radius: 0.35em;
+			border-radius: 0.8em;
 			display: block;
 		}
 
@@ -2151,8 +2151,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-    width: 100%; /* Ensure the image fits inside the container */
-    height: 100%; /* Scale the height to match the width */
+    width: 80%; /* Ensure the image fits inside the container */
+    height: 80%; /* Scale the height to match the width */
     object-fit: cover; /* Maintain aspect ratio and fill the container */
 			}
 
@@ -2601,7 +2601,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #011f14;
+		background-color: #02062B;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
@@ -2634,7 +2634,7 @@ input, select, textarea {
 		}
 	/*Mayura Vartak*/
 		#header strong, #header b {
-			color: #ffffff;
+			color: #EEEEEE;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2647,9 +2647,9 @@ input, select, textarea {
 			line-height: 1.75em;
 			margin: 0;
 		}
-
+		/*up,left */
 		#header .image.avatar {
-			margin: 0 0 1em 0;
+			margin: -5em -1em 1em 0;
 			width: 6.25em;
 		}
 
