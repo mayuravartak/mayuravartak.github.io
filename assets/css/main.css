@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -18,6 +20,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
+	scroll-behavior: smooth;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -97,6 +100,7 @@ input, select, textarea {
 			transition: none !important;*/
 		}
 	/* smalled text on right*/
+	/*forfont*/
 	body, input, select, textarea {
 		color: #000000;
 		font-family: Georgia;
@@ -118,8 +122,8 @@ input, select, textarea {
 		/* hover on linkedIn, github and email*/
 		a:hover {
 			border-bottom-color: transparent;
-			/*color: #FF0004 !important;*/
-			font-weight: bold;
+			color: #FF0004 !important; /*color when highlighted*/
+			font-weight: none;
 			text-decoration: none;
 		}
 
@@ -2135,7 +2139,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 80%;
 		}
 		
 
@@ -2564,7 +2568,7 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 		.work-item .image {
@@ -2583,7 +2587,7 @@ input, select, textarea {
 		}
 
 /* Header left side*/
-
+/*forheader*/
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2601,9 +2605,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #02062B;
+		background-color: #012900;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								100%;
@@ -2614,7 +2618,9 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 25%;
+		width: 26%;
+		border-top-right-radius: 20px; /* Curves the top-right corner */
+		border-bottom-right-radius: 20px;
 	}
 
 		#header > * {
@@ -2664,10 +2670,10 @@ input, select, textarea {
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.4); /*color of footer*/
 		font-size: 0.8em;
 		list-style: none;
-		margin: 1em 0 0 0;
+		margin: -0.1em 0 0 0; /*takes the footer up*/
 		padding: 0;
 	}
 
@@ -2690,12 +2696,12 @@ input, select, textarea {
 			}
 
 /* Main */
-
+/*right side*/
 	#main {
-		margin-left: 25%;
-		max-width: 54em;
-		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		margin-left: 26%; 
+		max-width: 65em; /*width of text*/
+		padding: 0em 5em 5em 5em; /*spacing above, below the ABOUT ME PARTt*/
+		width: calc(100%);
 	}
 
 		#main > section {
@@ -3087,7 +3093,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: #010629;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
