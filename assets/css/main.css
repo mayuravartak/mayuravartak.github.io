@@ -97,13 +97,22 @@ input, select, textarea {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
-			transition: none !important;*/
+			transition: none !important;
 		}
-	/* smalled text on right*/
+		
+	/*changes font for everything*/
 	/*forfont*/
-	body, input, select, textarea {
+	/*body, input, select, textarea {
 		color: #000000;
-		font-family: Georgia;
+		font-family: Georgia; 
+		font-size: 16pt;
+		font-weight: 400;
+		line-height: 1.75em;
+	}*/
+	
+		body, input, select, textarea {
+		color: #000000;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -122,8 +131,7 @@ input, select, textarea {
 		/* hover on linkedIn, github and email*/
 		a:hover {
 			border-bottom-color: transparent;
-			color: #FF0004 !important; /*color when highlighted*/
-			font-weight: none;
+			color: #ffffff !important; /*color when highlighted*/
 			text-decoration: none;
 		}
 
@@ -2064,8 +2072,8 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
-			position: relative;
+			opacity: 0;
+			position: absolute;
 			top: 0;
 			width: 100%;
 		}
@@ -2091,7 +2099,7 @@ input, select, textarea {
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
 				padding: 0 1.5em;
-				position: relative;
+				position: absolute;
 				text-align: center;
 				text-decoration: none;
 				top: 50%;
@@ -2135,11 +2143,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 95%;
 		}
 
 			.image.fit img {
-				width: 95%;
+				width: 100%;
 		}
 		
 
@@ -2673,7 +2681,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.4); /*color of footer*/
 		font-size: 0.8em;
 		list-style: none;
-		margin: -0.1em 0 0 0; /*takes the footer up*/
+		margin: 1em 0 0 0; /*takes the footer up*/
 		padding: 0;
 	}
 
@@ -3094,7 +3102,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #010629;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
