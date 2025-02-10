@@ -123,16 +123,17 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		border-bottom: solid 1px;
+		color: #ABBA7C;
 		text-decoration: none;
 	}
 
 		/* hover on linkedIn, github and email*/
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important; /*color when highlighted*/
+			color: #CAE0BC !important; /*color when highlighted*/
 			text-decoration: none;
+			font-weight: bold;
 		}
 
 	strong, b {
@@ -2051,6 +2052,14 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		
+		.tableau-icon {
+			position: relative; /* Allows precise positioning relative to its normal flow */
+			top: 2px; /* Moves the icon down */
+			left: -3px; /* Moves the icon slightly to the left */
+
+		}
+
 
 /* Image */
 
@@ -2465,10 +2474,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #012900;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		/*border: solid 3px #012900;*/
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2679,7 +2688,7 @@ input, select, textarea {
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4); /*color of footer*/
-		font-size: 0.8em;
+		font-size: 0.75em;
 		list-style: none;
 		margin: 1em 0 0 0; /*takes the footer up*/
 		padding: 0;
@@ -3101,7 +3110,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #010629;
+				background-color: #012900;
 				/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
