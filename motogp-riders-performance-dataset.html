@@ -1,0 +1,100 @@
+
+<html>
+	<head>
+		<!--<title>Mayura Vartak</title>-->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+
+<body style="padding: 50px; border-left: 60px solid #012900;">
+
+    <h2 style="font-size: 25px;"><u>DATASET CREATION</u></h2>
+	
+	<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+	
+    <!-- Left Side: Main Content -->
+	
+		<h2 style="font-size: 30px;">MotoGP Riders in 2024 Performance Dataset</h2>
+		<div style="width: 70%;"> <!-- start of green box -->
+		
+		<p style="margin-bottom: 10px;"> </p>
+			<!--<div style=" padding-top: 20px; width: 100%;">-->
+				<p>	
+					<p style="margin-bottom: -20px;"> </p>
+					<ul>
+					<li>Python web scraping techniques were used to extract data from Wikipedia articles and then organized to create a clean dataset for analysis.
+					<li>A career overview of 22 riders who competed in 2024, summarized by season and class they competed in.
+					</ul>
+					<p style="margin-bottom: -15px;"> </p>
+					The dataset can be <b>used for data visualization and insightful analysis</b> of your favorite riders' performance and career trends.
+					</br>
+					<p style="margin-bottom: 15px;"> </p>
+					<li>Code to extract and clean: <a href="https://github.com/mayuravartak/MotoGP-RidersSummary-DataExtraction" style="color: #037500;">GitHub - MotoGP-RidersSummary-DataExtraction</a>
+					</br>
+					<li>The dataset: <a href="https://www.kaggle.com/datasets/mayuravartak/motogp-riders-2024-performance-dataset" style="color: #037500;">Kaggle - MotoGP Riders in 2024 Performance Dataset</a>
+					<br>
+				</p>
+			<!--</div>-->
+		</div>
+		
+	<!-- Right Side: Bullet Point Section -->
+		<div style="width: 28%; padding-left: 10px; background-color: #CAE0BC; padding: 30px; border-radius: 10px; color: black;">
+			Key words:
+			</br>
+			<p style="margin-bottom: 10px;"> </p>
+			<ul>
+				<li>Python (Pandas)</li>
+				<li>Web Scraping</li>
+				<li>Data Cleaning</li>
+				<li>Data Visualization</li>
+				<li>Data Analysis</li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	<!--Images-->
+	
+    <div id="container" style="display: flex; gap: 20px; flex-wrap: wrap;">
+	
+
+        <!-- Right Box: Large Image Display -->
+		<div style="width: 700px; text-align: center; flex-grow: 1;">
+		<span style="font-size: 18px;"><b>A SAMPLE OF THE DATASET.</b></span>
+			<div>
+				<img id="largeImage" src="images/ow/1.jpg" alt="Large Image" width="100%" style="border-radius: 5px; border: 2px solid black" >
+			</div>
+		</div>
+			
+    </div>
+	
+	<p style="margin-bottom: 25px;"> </p> <!-- line gap -->
+    <h2 style="font-size: 25px;">METHODOLOGY</h2>
+	<p style="margin-bottom: 10px;"> </p>
+    <p>
+		The code to extract and clean this data is written in Python with libraries - Pandas and ssl.
+		<p style="margin-bottom: -20px;"> </p>
+		<ul>
+        <li><b>Extraction: Web scraping.</b></li>
+			Data is extracted using web scraping from the wikipedia pages of each individual riders.
+			Final file format is <u>csv</u>.
+			
+			<p style="margin-bottom: 15px;"> </p>
+	
+        <li><b>Cleaning</b></li>
+			Handled null values, standardized column names, assigned data types, and sorted/rearranged columns for consistency.
+			The dataset is cleaned and arranged by season after initially being sorted by bike number.
+		</ul>
+    </p>
+
+
+    <script>
+        function displayImage(imageSrc) {
+            document.getElementById("largeImage").src = imageSrc;
+        }
+    </script>
+
+</body>
+</html>
