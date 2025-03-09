@@ -8,7 +8,7 @@
 */
 
 .my-font-style {
-    font-family: "Consolas", monospace;
+    font-family: "Consolas", "Arial", sans-serif;
     font-weight: 500; /* Adjust if needed */
 }
 
