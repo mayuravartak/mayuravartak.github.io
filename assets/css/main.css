@@ -8,8 +8,8 @@
 */
 
 .my-font-style {
-    font-family: "Fira Code", monospace;
-    font-weight: 500;
+    font-family: "Consolas", monospace;
+    font-weight: 500; /* Adjust if needed */
 }
 
 
