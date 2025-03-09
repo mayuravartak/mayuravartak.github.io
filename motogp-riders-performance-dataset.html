@@ -10,14 +10,21 @@
 
 <body style="padding: 50px; border-left: 60px solid #012900;">
 
-    <h2 style="font-size: 25px;"><u>DATASET CREATION</u></h2>
+    <h2 style="font-size: 25px;">DATASET CREATION</h2>
 	
+	<p style="margin-bottom: 20px;"> </p>
+		
 	<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
 	
     <!-- Left Side: Main Content -->
 	
 		<h2 style="font-size: 30px;">MotoGP Riders in 2024 Performance Dataset</h2>
-		<div style="width: 70%;"> <!-- start of green box -->
+		
+		<div style="width: 65%;">
+		<p style="margin-bottom: 20px;"> </p>
+		<!-- start of green box -->
+		<div style=" background-color: #CAE0BC; padding: 20px; border-radius: 10px; color: black; padding-left: 30px;"> 
+		
 		
 		<p style="margin-bottom: 10px;"> </p>
 			<!--<div style=" padding-top: 20px; width: 100%;">-->
@@ -27,20 +34,25 @@
 					<li>Python web scraping techniques were used to extract data from Wikipedia articles and then organized to create a clean dataset for analysis.
 					<li>A career overview of 22 riders who competed in 2024, summarized by season and class they competed in.
 					</ul>
+					
 					<p style="margin-bottom: -15px;"> </p>
 					The dataset can be <b>used for data visualization and insightful analysis</b> of your favorite riders' performance and career trends.
 					</br>
-					<p style="margin-bottom: 15px;"> </p>
+					</br>
+					<p style="margin-bottom: 5px;"> </p>
+			</div>	
+					<!--<p style="margin-bottom: 15px;"> </p>
 					<li>Code to extract and clean: <a href="https://github.com/mayuravartak/MotoGP-RidersSummary-DataExtraction" style="color: #037500;">GitHub - MotoGP-RidersSummary-DataExtraction</a>
 					</br>
 					<li>The dataset: <a href="https://www.kaggle.com/datasets/mayuravartak/motogp-riders-2024-performance-dataset" style="color: #037500;">Kaggle - MotoGP Riders in 2024 Performance Dataset</a>
-					<br>
-				</p>
+					</p>-->
 			<!--</div>-->
 		</div>
 		
 	<!-- Right Side: Bullet Point Section -->
-		<div style="width: 28%; padding-left: 10px; background-color: #CAE0BC; padding: 30px; border-radius: 10px; color: black;">
+		<div style="width: 30%;"> 
+		<p style="margin-bottom: 20px;"> </p>
+		<div style="padding-left: 10px; background-color: #CAE0BC; padding: 30px; border-radius: 10px; color: black;">
 			Key words:
 			</br>
 			<p style="margin-bottom: 10px;"> </p>
@@ -52,8 +64,31 @@
 				<li>Data Analysis</li>
 			</ul>
 		</div>
+		</div>
 		
 	</div>
+	
+	</br>
+	
+	<!-- 3rd green box of links-->
+	
+	<p style="margin-bottom: 15px;"> </p>
+		<li><a href="https://github.com/mayuravartak/MotoGP-RidersSummary-DataExtraction " target="_blank" style="color: #037500;"><b>GitHub</b> - MotoGP-RidersSummary-DataExtraction</a> - Code to extract and clean 
+		</br>
+		<li><a href="https://www.kaggle.com/datasets/mayuravartak/motogp-riders-2024-performance-dataset" target="_blank" style="color: #037500;"><b>Kaggle</b> - MotoGP Riders in 2024 Performance Dataset</a> - The dataset
+	</p>
+	
+	<!--<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+	
+		<div style="padding-left: 10px; background-color: #CAE0BC; padding: 30px; border-radius: 10px; color: black;">
+			<a href="https://github.com/mayuravartak/MotoGP-RidersSummary-DataExtraction" style="color: #037500;">View on <b>GitHub</b></a>
+		</div>
+		
+		<div style="padding-left: 10px; background-color: #CAE0BC; padding: 30px; border-radius: 10px; color: black;">
+			<a href="https://www.kaggle.com/datasets/mayuravartak/motogp-riders-2024-performance-dataset" style="color: #037500;">View on <b>Kaggle</b></a>
+		</div>
+	
+	</div>-->
 	
 	<!--Images-->
 	
@@ -62,8 +97,8 @@
 
         <!-- Right Box: Large Image Display -->
 		<div style="width: 700px; text-align: center; flex-grow: 1;">
-		<span style="font-size: 18px;"><b>A SAMPLE OF THE DATASET.</b></span>
-			<div>
+		<span style="font-size: 18px;"><b>A SAMPLE OF THE FINAL DATASET.</b></span>
+			<div style="background-color: #CAE0BC; padding: 7px; border-radius: 5px;">
 				<img id="largeImage" src="images/ow/1.jpg" alt="Large Image" width="100%" style="border-radius: 5px; border: 2px solid black" >
 			</div>
 		</div>
@@ -71,7 +106,10 @@
     </div>
 	
 	<p style="margin-bottom: 25px;"> </p> <!-- line gap -->
+	 
     <h2 style="font-size: 25px;">METHODOLOGY</h2>
+	<p style="margin-bottom: 10px;"> </p>
+	<div style=" background-color: #CAE0BC; padding: 20px; border-radius: 10px; color: black; padding-left: 30px;">
 	<p style="margin-bottom: 10px;"> </p>
     <p>
 		The code to extract and clean this data is written in Python with libraries - Pandas and ssl.
@@ -88,7 +126,7 @@
 			The dataset is cleaned and arranged by season after initially being sorted by bike number.
 		</ul>
     </p>
-
+	</div>
 
     <script>
         function displayImage(imageSrc) {
