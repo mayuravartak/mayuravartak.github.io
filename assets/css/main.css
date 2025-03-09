@@ -131,7 +131,7 @@ input, select, textarea {
 		/* hover on linkedIn, github and email*/
 		a:hover {
 			border-bottom-color: transparent;
-			color: #AAB99A !important; /*hover on buttons light green*/
+			/*color: #ffffff !important; /*hover on buttons light green*/
 			text-decoration: none;
 			font-weight: bold;
 		}
